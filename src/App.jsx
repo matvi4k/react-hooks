@@ -1,0 +1,32 @@
+import OldSignupForm from './components/SignUpForm/SignUpForm'
+// import ColorPicker from "./components/ColorPicker/ColorPicker";
+
+// const colorPickerOption = [
+
+//   { label: 'red', color: '#F44336' },
+//   { label: 'green', color: '#4CAF50' },
+//   { label: 'blue', color: '#2196F3' },
+//   { label: 'grey', color: '#607D8B' },
+//   { label: 'pink', color: '#E91E63' },
+//   { label: 'indigo', color: '#3F51B5' },
+// ]
+
+const containerStyles = {
+  maxWidth: 1200,
+  marginLeft: "auto",
+  marginRight: "auto",
+  paddingLeft: 15,
+  paddingRight: 15,
+};
+
+function App() {
+  return (
+    <div style={containerStyles}>
+      {/* <ColorPicker options={colorPickerOption} /> */}
+      <OldSignupForm/>
+
+    </div>
+  );
+}
+
+export default App;
